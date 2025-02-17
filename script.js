@@ -29,7 +29,7 @@ function onAddItemSubmit(e) {
     //create item DOM element
     addItemToDOM(newItem);
 
-    //add item to local storage
+    
     addItemToStorage(newItem);
 
     checkUI();
