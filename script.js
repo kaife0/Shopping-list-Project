@@ -69,11 +69,11 @@ removeItemFromStorage(item.textContent);
 
 function addItemToStorage(item) {
     const itemsFromStorage = getItemsFromStorage()
-    //add new item to array
+   
 
     itemsFromStorage.push(item);
 
-    //convert to JSON string and set to local storage
+    
     localStorage.setItem('items', JSON.stringify(itemsFromStorage));
 }
 function getItemsFromStorage() {
