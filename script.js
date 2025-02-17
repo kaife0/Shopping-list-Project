@@ -9,7 +9,7 @@ function displayItems() {
     itemsFromStorage.forEach((item) => addItemToDOM(item));
     checkUI();
 }
-
+ 
 
 function onAddItemSubmit(e) {
     e.preventDefault();
