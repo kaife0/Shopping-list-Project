@@ -26,7 +26,7 @@ function onAddItemSubmit(e) {
         alert('Please add an item');
         return;
     }
-    //create item DOM element
+   
     addItemToDOM(newItem);
 
     
