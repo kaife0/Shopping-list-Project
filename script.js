@@ -108,7 +108,7 @@ function createButton(classes) {
 
 function createIcon(classes) {
     const icon = document.createElement('i');
-    icon.className = `fas ${classes}`; // Add 'fas' to indicate it's a Font Awesome solid icon
+    icon.className = `fas ${classes}`;
     return icon;
 }
 
