@@ -21,7 +21,7 @@ function onAddItemSubmit(e) {
         return;
       }
 
-    //validate Input
+ 
     if (newItem === '') {
         alert('Please add an item');
         return;
