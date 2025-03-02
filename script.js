@@ -10,7 +10,7 @@ function displayItems() {
     checkUI();
 }
  
-
+ 
 function onAddItemSubmit(e) {
     e.preventDefault();
 
